@@ -1,0 +1,50 @@
+<section class="hero is-danger is-bold">
+  <div class="hero-body">
+    <div class="container">
+      <h1 class="title has-text-centered">
+        B-Law's Burgers
+      </h1>
+    </div>
+  </div>
+</section>
+<section class="section">
+  <div class="container has-text-centered">
+    <img class="burgerPic" src="../../public/assets/images/149336.png" width="400" />
+  </div>
+</section>
+<section class="section">
+  <ul align="left">
+    {{#each burger_name}} 
+    {{#unless devoured}} 
+    <p>{{burger_name}}</p>{{> burger/burger-block devoured-false}} 
+    {{/unless}} 
+    {{/each}}
+  </ul>
+  <ul align="left">
+    {{#each burger_name}} 
+    {{#if devoured}} 
+    {{> burger/burger-block devoured-false}} 
+    {{/if}} 
+    {{/each}}
+  </ul>
+</section>
+<section class="section">
+  <div class="contain is-fluid">
+    <form class="">
+      <div class="field">
+        <label class="label">Create Your Burger</label>
+        <div class="control">
+          <textarea class="textarea" placeholder="Bugers are Delicious"></textarea>
+        </div>
+      </div>
+      <div class="field is-grouped">
+        <div class="control">
+          <button class="button is-link is-danger">Submit</button>
+        </div>
+        <div class="control">
+          <button class="button is-text">Cancel</button>
+        </div>
+      </div>
+    </form>
+  </div>
+</section>
