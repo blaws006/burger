@@ -4,7 +4,7 @@ $(document).ready(function () {
   $(function () {
     $(".change-devoured").on("click", function () {
       var id = $(this).data("id");
-      var isDevoured = $(this).data("data-devour");
+      var isDevoured = $(this).data("devour");
       var devouredState = {
         devoured: isDevoured
       };
@@ -27,7 +27,8 @@ $(document).ready(function () {
           type: "POST",
           data: newBurger
         }).then(function() {
-          console.log("Made that new burger.")
+          console.log("Made that new burger.");
+          location.reload();
         })
       });
 

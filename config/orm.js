@@ -11,13 +11,13 @@ function printQuery(num) {
 //Turns object/key pairs to SQL syntax
 function objToSql(ob) {
     var arr = [];
-    for (key in ob) {
+    for (var key in ob) {
         var value = ob[key];
-        if (Object.hasOwnPropery.call(ob.key)) {
+        if (Object.hasOwnProperty.call(ob, key)) {
             if(typeof value === "string" && value.indexOf(" ") >= 0){
                 value = "'" + value + "'";
             }
-            arr.push(key + "-" + value);
+            arr.push(key + "=" + value);
         }
     }
     return arr.toString();
@@ -41,7 +41,7 @@ var orm = {
         queryString += ") ";
         queryString += "VALUES (";
         queryString += printQuery(vals.length);
-        queryString += " )";
+        queryString += ") ";
 
         console.log(queryString);
         connection.query(queryString, vals, function(err, result){
