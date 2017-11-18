@@ -16,6 +16,7 @@ $(document).ready(function () {
         console.log("Burger has been officially " + isDevoured);
         location.reload();
       });
+    });
 
       $("#create-burger").on("click", function(event){
         event.preventDefault();
@@ -32,6 +33,6 @@ $(document).ready(function () {
         })
       });
 
-    });
+    
   });
 });
