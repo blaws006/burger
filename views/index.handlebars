@@ -16,14 +16,14 @@
   <ul align="left">
     {{#each burger_name}} 
     {{#unless devoured}} 
-    <p>{{burger_name}}</p>{{> burger/burger-block devoured-false}} 
+    {{burger_name}} {{> burger/burger-block devoured=true}} 
     {{/unless}} 
     {{/each}}
   </ul>
-  <ul align="left">
+  <ul align="right">
     {{#each burger_name}} 
     {{#if devoured}} 
-    {{> burger/burger-block devoured-true}} 
+   {{burger_name}} {{> burger/burger-block devoured=false}} 
     {{/if}} 
     {{/each}}
   </ul>
