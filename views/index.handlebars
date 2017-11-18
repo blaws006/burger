@@ -9,7 +9,7 @@
 </section>
 <section class="section">
   <div class="container has-text-centered">
-    <img class="burgerPic" src="../../public/assets/images/149336.png" width="400" />
+    <img class="burgerPic" width="400" />
   </div>
 </section>
 <section class="section">
@@ -30,19 +30,16 @@
 </section>
 <section class="section">
   <div class="contain is-fluid">
-    <form class="">
+    <form class="create-form">
       <div class="field">
         <label class="label">Create Your Burger</label>
         <div class="control">
-          <textarea class="textarea" placeholder="Bugers are Delicious"></textarea>
+          <textarea id="burger-name" class="textarea" placeholder="Bugers are Delicious"></textarea>
         </div>
       </div>
       <div class="field is-grouped">
         <div class="control">
-          <button class="button is-link is-danger">Submit</button>
-        </div>
-        <div class="control">
-          <button class="button is-text">Cancel</button>
+          <button id="create-burger" class="button is-link is-danger" type="submit">Submit</button>
         </div>
       </div>
     </form>

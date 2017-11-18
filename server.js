@@ -16,7 +16,7 @@ app.use(bodyParser.json({
 }));
 
 // Static directory to be served
-app.use(express.static("app/public"));
+app.use(express.static("public"));
 
 var exphbs = require("express-handlebars");
 
