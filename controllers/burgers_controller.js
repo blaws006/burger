@@ -1,7 +1,8 @@
 var express = require("express");
 var burger = require("../models/burger");
 var router = express.Router();
-
+//Routes api with the functions established in the model file 
+//To be pushed to the server file
 router.get("/", function(req, res){
     burger.selectAll(function(data){
         var allObject = {
