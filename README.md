@@ -1,6 +1,9 @@
 # burger
 
-This Burger App let's the user create a burger and devour that burger and the additional burgers on the screeen. 
-API Routing allows for each action (Create and Update) to be updated in a SQL database.
-Using templating engine, Handlebars.js, to help update the MySQL database with actions happening on the UI end.
-Deployed to Heroku and using JAWS DB to handle the data rentention.
+Come for the burgers, stay for the App.
+
+This Burger App let's a user create a burger and devour that burger and the additional burgers on the screen. 
+
+MySQL handles the storing of data (burger_name, id, devoured).
+Handlerbars, is the templating engine that brings each burger and their devoured status onto the client side from the server side.
+API Routing allows for reading, creation and status update of each burger to be transalted from the front end to the back end.
