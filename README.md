@@ -6,4 +6,4 @@ This Burger App let's a user create a burger and devour that burger and the addi
 
 MySQL handles the storing of data (burger_name, id, devoured).
 Handlerbars, is the templating engine that brings each burger and their devoured status onto the client side from the server side.
-API Routing allows for reading, creation and status update of each burger to be transalted from the front end to the back end.
+API Routing allows for reading, creation and status update of each burger to be translated from the front end to the back end.
