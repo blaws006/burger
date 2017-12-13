@@ -15,4 +15,4 @@ MySQL handles the storing of data (burger_name, id, devoured). Handlerbars, is t
  
 ## Usage
 
-[heroku link] (https://dashboard.heroku.com/apps/calm-harbor-93557)
+[heroku link](https://dashboard.heroku.com/apps/calm-harbor-93557)
