@@ -1,5 +1,7 @@
 # Burger
 
+[!Burger] (https://media.giphy.com/media/26DMXeJRz2f66y4M0/giphy.gif)
+
 ## Description 
 Come for the burgers, stay for the App.
 This Burger App let's a user create a burger and devour that burger and the additional burgers on the screen.
