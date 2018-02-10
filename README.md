@@ -1,6 +1,6 @@
 # Burger
 
-[!Burger] (https://media.giphy.com/media/26DMXeJRz2f66y4M0/giphy.gif)
+![Burger] (https://media.giphy.com/media/26DMXeJRz2f66y4M0/giphy.gif)
 
 ## Description 
 Come for the burgers, stay for the App.
