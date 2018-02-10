@@ -11,7 +11,7 @@ MySQL handles the storing of data (burger_name, id, devoured). Handlerbars, is t
 ## Installation
 
 * Clone repo on your hard drive using `git@github.com:blaws006/burger.git`
-* Use `npm install` for all of the modules you need
+* Use `npm install` for all of the dependencies that you need
 * Run the sql files in your MySQL client
 * Fire up your server using `npm start`
  
